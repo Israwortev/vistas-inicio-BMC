@@ -1,0 +1,85 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/*font rules */
+/* font-family: 'Montserrat', sans-serif;  */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecera{
+    background-color:#E20515;
+    color:#ffff;
+    
+    text-align: center;
+    font-weight: bold;
+    padding: .5em;
+    width: 100%;
+}
+
+.tips{
+    padding: 2.5em;
+    margin-left: 1em;
+    
+
+}
+.titulos{
+    font-size:27pt ;
+    font-weight: bold;
+    letter-spacing: -.5pt;
+
+}
+.espacio-tips{
+    margin-bottom: 3.5em;
+}
+.pt{
+    opacity: .7;
+    padding-right: 1em;
+}
+
+.enlace{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+
+
+
+.enlace:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.img_ejemplo{
+align-items: center;
+width: 95%;
+}
+.ilustration{
+align-items: center;
+width: 95%;
+
+
+}
+
+.banner{
+        background-color: #E5E743;
+        position: fixed;
+        max-height: 10em;
+        bottom: 0;
+        width:100%;
+        padding: 4em;
+        padding-top: 1.5em;
+        margin-right:0 ;
+       
+    
+}
+.titulo-banner{
+    font-weight: bold;
+    font-size: 2em;
+}
