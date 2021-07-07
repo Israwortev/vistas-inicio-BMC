@@ -35,7 +35,18 @@
 
 .icons{
     color: red;
-    border-style: solid 2spx #000;
+    border-style: solid 2px #000;
     text-align: right;
     border-top: 3px solid red;
+    padding-top: 10px;
+}
+
+.svg-icons{
+    border:none;
+    background-color: transparent;
+    padding: 0 10px;
+}
+
+.bmc-item:hover, .bmc-item:focus{
+    background-color: #E3E3E3;
 }
